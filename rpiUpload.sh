@@ -1,0 +1,3 @@
+rsync -vhaH --progress --update --filter=':- .gitignore' /Users/lukas/dev/projects/roaster-probe pi@raspberrypi.local:/home/pi/ && \
+rsync -vhaH --progress --ignore-existing --filter=':- .gitignore' /Users/lukas/dev/projects/roaster-probe pi@raspberrypi.local:/home/pi/ && \
+rsync -vhaH --progress --delete --filter=':- .gitignore' /Users/lukas/dev/projects/roaster-probe pi@raspberrypi.local:/home/pi/
